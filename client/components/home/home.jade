@@ -1,0 +1,11 @@
+input("[(ngModel)]"="author", placeholder="Author")
+input("[(ngModel)]"="body", placeholder="Body")
+button((click)="addNote()") Add
+
+md-card.example-card(*ngFor="let note of notes")
+  md-card-header
+    md-card-title {{ note.getAuthor() }}
+
+  md-card-content {{ note.getBody() }}
+  md-card-actions
+    button(md-button='', (click)="deleteNote(note.getId())") Delete

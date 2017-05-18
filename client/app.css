@@ -1,0 +1,47 @@
+body { margin: 0}
+
+.royalblue {
+  color: royalblue;
+}
+
+.mat-menu-content {
+  width: 300px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.example-card {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.example-form {
+  width: 500px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
