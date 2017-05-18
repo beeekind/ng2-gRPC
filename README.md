@@ -1,5 +1,7 @@
 ## ng2-gRPC
 
+![Screenshot](./screenshot.png)
+
 Get up and running with:
 
 ```bash
