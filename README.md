@@ -11,3 +11,5 @@ yarn install
 ./scripts/install_protobuf
 npm run start
 ```
+
+This project also contains angular-material and routing.
