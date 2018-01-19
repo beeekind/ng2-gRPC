@@ -7,8 +7,8 @@ Get up and running with:
 ```bash
 git clone https://github.com/b3ntly/ng2-grpc.git
 yarn install 
-./scripts/get_go_deps
-./scripts/install_protobuf
+./scripts/get_go_deps.sh
+./scripts/install_protobuf.sh
 npm run start
 ```
 
